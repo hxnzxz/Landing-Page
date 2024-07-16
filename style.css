@@ -2,7 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    gap: 30px;
+    gap: 25px;
     margin: 0;
 }
 
@@ -38,6 +38,17 @@ img {
     color: white;
 }
 
+h2 {
+    text-align: center;
+    font-size: 36px;
+    font-weight: bold;
+    color:#1F2937;
+    margin-top: 10px;
+}
+
+h3{
+    margin: 0;
+}
 
 .top, .footer{
     background-color: #1F2937;
@@ -87,4 +98,73 @@ img {
     font-weight: bold;
     font-size: 48px;
     margin: 0;
+}
+.empty {
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+    flex-wrap: wrap;
+    gap: 5px;
+}
+
+.illustration {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 75px;
+    padding-bottom: 75px;
+}
+.quote p{
+    font-size: 36px;
+    font-style: italic;
+    color: #1F2937;
+    max-width: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 0;
+}
+.author {
+    padding-left: 600px;
+    font-weight: bold;
+}
+
+.ad-message {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+}
+
+.ad {
+    display: flex;
+    justify-content: center;
+    gap: 250px;
+    background-color: #3882F6;
+    color: white;
+    padding: 40px;
+    margin: 50px 200px;
+    border-radius: 5px;
+}
+
+.ad button {
+    border-color: white;
 }
