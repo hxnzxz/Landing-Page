@@ -24,6 +24,18 @@ a {
 button {
     color: white;
     background-color: #3882F6;
+    border-radius: 8px;
+    padding: 5px 20px;
+}
+
+img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 200px;
+    background-color: gray;
+    color: white;
 }
 
 
@@ -31,12 +43,26 @@ button {
     background-color: #1F2937;
 }
 
+.top{
+    padding-left: 400px;
+    padding-right: 400px;
+    padding-top: 25px;
+}
+
 .header {
     color: white;
     font-size: 24px;
     font-weight: bold;
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
+}
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: white;
 }
 
 .description{
@@ -45,12 +71,15 @@ button {
     align-items:first baseline;
     flex-wrap: wrap;
     max-width: 380px;
+    color: white;
 }
 
 .intro {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
 }
 
 #hero {
